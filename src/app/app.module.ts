@@ -3,8 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { InputTextModule } from 'primeng/inputtext';
-import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng-lts/inputtext';
+import { ButtonModule } from 'primeng-lts/button';
+
 
 @NgModule({
   declarations: [
