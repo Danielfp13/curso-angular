@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pesquisa',
-  templateUrl: './pesquisa.component.html',
-  styleUrls: ['./pesquisa.component.scss']
+  selector: 'app-lancamento-pesquisa',
+  templateUrl: './lancamento-pesquisa.component.html',
+  styleUrls: ['./lancamento-pesquisa.component.scss']
 })
-export class PesquisaComponent {
+
+export class LancamentoPesquisaComponent {
 
   lancamentos = [
     { tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: '30/06/2017',

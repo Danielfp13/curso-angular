@@ -7,14 +7,16 @@ import { InputTextModule } from 'primeng-lts/inputtext';
 import { ButtonModule } from 'primeng-lts/button';
 import { TableModule } from 'primeng-lts/table';
 import { TooltipModule } from 'primeng-lts/tooltip';
-import { PesquisaComponent } from './pesquisa/pesquisa.component';
+import { LancamentoPesquisaComponent } from './lancamento-pesquisa/lancamento-pesquisa.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PessoaPesquisaComponent } from './pessoa-pesquisa/pessoa-pesquisa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PesquisaComponent,
-    NavbarComponent
+    LancamentoPesquisaComponent,
+    NavbarComponent,
+    PessoaPesquisaComponent
   ],
   imports: [
     BrowserModule,
